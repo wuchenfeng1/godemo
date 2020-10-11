@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 /**
-   go基本数据类型有四种整数 浮点  布尔 字符串
- */
+  go基本数据类型有四种整数 浮点  布尔 字符串
+*/
 func main() {
 	//官网的对基本数据类型的解释
 	//整形
@@ -20,7 +20,6 @@ func main() {
 	//type uint32 uint32 uint32是所有无符号32位整数的集合。范围：0到4294967295
 	//type uint64 uint64 uint64是所有无符号64位整数的集合。范围：0到18446744073709551615
 
-
 	//浮点类型
 
 	//type float32 float32 float32是所有IEEE-754 32位浮点数的集合。
@@ -32,14 +31,15 @@ func main() {
 	//type string string string是所有8位字节字符串的集合，通常不是这样必须表示UTF-8编码的文本。字符串可以为空，但是 不是零。字符串类型的值是不可变的。
 	//布尔
 	//type bool bool 值为true或者false
-	var v1 int=100
-	var v2 float32=32
-	var v3 string="乔"
-	var v4 bool=true
-    // 格式化打印 %T 类型 %v 值 %c  字符
-	fmt.Printf("v1 %T:",v1)
-	fmt.Printf("v2 %v:",v2)
-	fmt.Printf("v3 %c:",v3)
-	fmt.Printf("v4 %c:",v4)
+	var v1 int = 100
+	var v2 float32 = 32
+	var v3 string = "乔"
+	var v4 bool = true
+	// 格式化打印 %T 类型 %v 值 %c  字符
+	fmt.Printf("v1 %T:", v1)
+	fmt.Printf("v2 %v:", v2)
+	fmt.Printf("v3 %c:", v3)
+	fmt.Printf("v4 %c:", v4)
+	fmt.Printf("v4 #{v4}")
 
 }

@@ -40,8 +40,11 @@
 + math  函数  详见test04.go
 + 流程控制  详见test05.go
 + go语言唯一的循环语句 for循环 常见的算法 break、contine、goto、defer  详见test06.go
->函数（代码参考：）
+>函数（代码参考：test07）
++ 不定长参数、定长的参数
++ 返回值
 + 
+
 
  
 
