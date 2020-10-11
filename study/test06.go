@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 //死循环
 func main04() {
@@ -87,11 +91,62 @@ END:
 /**
 defer 延迟加载 函数
 */
-func main() {
+func main13() {
 	defer main12()
 	fmt.Println("我先执行")
 	//匿名函数的编写
 	defer func() {
 		fmt.Println("我是匿名函数")
 	}()
+}
+
+/**
+猜大猜小游戏
+*/
+func main() {
+	//a := rand.Int()
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	sys_num := r.Intn(1000)
+	fmt.Println("请输入你猜想的数字:")
+	//var jixi int
+	for {
+		var num int
+		fmt.Scan(&num)
+		////输入的数字
+		//imput, _ := strconv.Atoi(input)
+		switch {
+		/**
+		 系统给定的数字是888
+			输入的值比系统的小
+			400    显示400到1000
+			900 是 400到900
+			700  700 到900
+			输入的值比系统的大
+			2.
+		*/
+		//输入比系统值大
+		case num > sys_num:
+			//if jixi == 0 {
+			//	fmt.Printf("%d到%d ", 0,num)
+			//}else {
+			//	fmt.Printf("%d到%d ", jixi, num)
+			//	jixi = num
+			//}
+			fmt.Println("猜大了")
+		//输入比系统值小
+		case num < sys_num:
+			//if jixi == 0 {
+			//	fmt.Printf("%d到%d ", num,1000)
+			//}else{
+			//	fmt.Printf("%d到%d ", num,jixi)
+			//	jixi=num
+			//}
+			fmt.Println("猜小了")
+		default:
+			fmt.Println("猜对了")
+			break
+		}
+
+	}
+
 }
