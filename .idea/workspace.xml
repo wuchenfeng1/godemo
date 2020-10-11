@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3a488e-a732-4f41-9eae-1ffd33b9b25d" name="Default Changelist" comment="" />
+    <list default="true" id="dd3a488e-a732-4f41-9eae-1ffd33b9b25d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/ZREADME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/test05.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/test04.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/test04.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,7 @@
   <component name="GOROOT" path="D:/tools/go/Go" />
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\git\cmd\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -28,6 +36,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hu9i82PP9zZrZsCqauyiFPX7ot" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,23 +67,24 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build test04.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go_whole_stack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build study/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="godemo" />
+      <module name="go_whole_stack" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$/study" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test01.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="godemo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/study/test01.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build test02.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="godemo" />
+      <module name="go_whole_stack" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/study/test02.go" />
@@ -82,7 +92,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build test03.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="godemo" />
+      <module name="go_whole_stack" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/study/test03.go" />
@@ -90,27 +100,45 @@
       <method v="2" />
     </configuration>
     <configuration name="go build test04.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="godemo" />
+      <module name="go_whole_stack" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/study/test04.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test05.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_whole_stack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/study/test05.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go_whole_stack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build test01.go (1)" />
       <item itemvalue="Go Build.go build test02.go" />
       <item itemvalue="Go Build.go build test03.go" />
       <item itemvalue="Go Build.go build test04.go" />
       <item itemvalue="Go Build.go build study/" />
+      <item itemvalue="Go Build.go build test05.go" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build test04.go" />
+        <item itemvalue="Go Build.go build test05.go" />
         <item itemvalue="Go Build.go build study/" />
         <item itemvalue="Go Build.go build test03.go" />
         <item itemvalue="Go Build.go build test02.go" />
-        <item itemvalue="Go Build.go build test01.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1600851005888" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1602409548465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602409548465" />
     <state x="541" y="109" key="EnvironmentVariablesDialog" timestamp="1600850991441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,26 +175,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602408964755" />
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1602407227971">
+    <state x="555" y="261" key="Github.ShareDialog" timestamp="1602409023473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602407227971" />
-    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1602407227971">
+    <state x="555" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1602409023473" />
+    <state x="555" y="68" key="Github.UntrackedFilesDialog" timestamp="1602409044279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602407227971" />
-    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1602407227971">
+    <state x="555" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602409044279" />
+    <state width="1323" height="116" key="GridCell.Tab.0.bottom" timestamp="1602410284258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602407227971" />
-    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1602407227971">
+    <state width="1323" height="116" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602410284258" />
+    <state width="1323" height="116" key="GridCell.Tab.0.center" timestamp="1602410284258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602407227971" />
+    <state width="1323" height="116" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602410284258" />
+    <state width="1323" height="116" key="GridCell.Tab.0.left" timestamp="1602410284258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="116" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602410284258" />
+    <state width="1323" height="116" key="GridCell.Tab.0.right" timestamp="1602410284258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="116" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602410284258" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1602408966984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602408966984" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602409554490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602409554490" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602398203785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
