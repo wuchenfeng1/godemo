@@ -1,8 +1,4 @@
-#GO语言自学演示（够浪~是世界上最简单的语言）
-[MD规范参考](https://www.cnblogs.com/bobo1/p/10929539.html)
->目录结构：godemo
- 1. study  学习目录
- 2. deep  深入探索目录
+#够浪~的基本语法练习总结
 >常量表达式(代码参考：test01)
  + const pi = 3.14 //常量定义
  + 	const(
@@ -39,10 +35,13 @@
         + type string string string是所有8位字节字符串的集合，通常不是这样必须表示UTF-8编码的文本。字符串可以为空，但是 不是零。字符串类型的值是不可变的。
         ##### 布尔
         + type bool bool boolean values, true and false
->常用运算符（代码参考：）
+>基本语法（代码参考：）
 + iota  定义递增表达式 test03.go
 + math  函数  详见test04.go
-+ 常见运算符  详见test05.go
++ 流程控制  详见test05.go
++ go语言唯一的循环语句 for循环 常见的算法 break、contine、goto、defer  详见test06.go
+>函数（代码参考：）
++ 
 
  
 
