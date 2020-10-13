@@ -24,7 +24,6 @@ func excuteTask() func(name string, count int) (progress int) {
 		return progress
 	}
 	return doTask
-
 }
 
 //优化
@@ -36,5 +35,4 @@ func excuteTask01(name string) func(count int) (progress int) {
 		return progress
 	}
 	return doTask
-
 }
