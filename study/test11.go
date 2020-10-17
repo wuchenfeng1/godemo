@@ -17,9 +17,31 @@ func main() {
 
 	//切片 可以在切片
 	i := ints3[:]
+	//定义一个切片
+	var ll = []int{}
+	//切追加元素
+	i2 := append(ll, 2)
+	//取值
+	//一个切片添加另一个切片
+	i3 := append(ll, i2...)
+	fmt.Println(i3)
+
+	for i, s := range i2 {
+		fmt.Println(i, s)
+	}
 	fmt.Println(ints)
 	fmt.Println(ints1)
 	fmt.Println(ints2)
 	fmt.Println(ints3)
 	fmt.Println(i)
+	fmt.Println(i2)
+	var cap1 = []int{}
+
+	//动态的扩容的一倍,然后加2
+	cap1 = append(cap1, 1)
+	cap1 = append(cap1, 2)
+	cap1 = append(cap1, 3)
+	cap1 = append(cap1, 4)
+	//
+	fmt.Println(cap1, cap(cap1))
 }
