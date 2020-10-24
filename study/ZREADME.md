@@ -67,7 +67,7 @@
 + 切片 切片的类型是 []int 数组的类型是[10]int 切片和python很像
 + 切片扩容策略：就是开辟一个新的地址,将原有的容量*2（有时是+2），将原有的元素拷贝的新的容量中,将内存地址指向新的地址，旧的地址废弃，等垃圾回收
 + map集合
->对象（代码参考：test13）
+>对象（代码参考：test13  面向对象过于简单，多用就会了
 + 创建对象的几种方式
    + //方式一：使用T{…}方式，结果为值类型
    + cc := Car{}   
@@ -78,6 +78,17 @@
 + 封装
 + 继承
 + 多态
+
+>io（代码参考：test16  
++ os  os文件
++ ioutil  io操作
++ bufio   字符缓冲
+
+>json（代码参考：test16 ） 
++ 结构体 转 json  结构体 属性值必须大写 json.Marshal(stu)
++ map 转json json.Marshal(stu) 反之  
++ json 转map json.UNMarshal 
++ json 转结构体 json.UNMarshal
 
 
 
