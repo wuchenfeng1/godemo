@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	Monday = iota  // 定义递增表达式
+	Monday = iota // 定义递增表达式
 	Tuesday
 	Wednesday
 	Thursday
